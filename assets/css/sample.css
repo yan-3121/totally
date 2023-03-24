@@ -1,0 +1,29 @@
+body {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header__logo {
+  width: 108px;
+  margin: 36px auto 26px auto;
+}
+.header__logo img {
+  width: 100%;
+}
+
+.nav__wrapper {
+  display: flex;
+  max-width: 336px;
+  margin-inline: auto;
+}
+.nav__wrapper .nav__item {
+  margin-left: 14px;
+}
+.nav__wrapper .nav__item:nth-child(1) {
+  margin-left: 0;
+}
