@@ -11,6 +11,14 @@ a {
     color: #333;
 }
 
+.container {
+    padding-inline: 4.8%;
+}
+
+h1 , h2 {
+    margin: 0;
+}
+
 // header
 
 .header__logo {
@@ -45,4 +53,14 @@ a {
         height: auto;
         object-fit: cover;
     }
+}
+
+// contents
+
+.headline {
+    font-size: 16px;
+    border-block: 1px solid #C3C3C3;
+    padding-block: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
